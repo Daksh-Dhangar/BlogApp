@@ -5,8 +5,8 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const lodash = require("lodash");
 
-mongoose.connect("mongodb://admin-daksh:test123@ac-jpzqyro-shard-00-00.nrp9c9i.mongodb.net:27017,ac-jpzqyro-shard-00-01.nrp9c9i.mongodb.net:27017,ac-jpzqyro-shard-00-02.nrp9c9i.mongodb.net:27017/blogDB?ssl=true&replicaSet=atlas-r80rsz-shard-0&authSource=admin&retryWrites=true");
-
+mongoose.connect('mongodb+srv://daksh:Daksh0000@cluster0.2qwfu9s.mongodb.net/?retryWrites=true&w=majority');
+//"mongodb+srv://admin-daksh:test123@ac-jpzqyro-shard-00-00.nrp9c9i.mongodb.net:27017,ac-jpzqyro-shard-00-01.nrp9c9i.mongodb.net:27017,ac-jpzqyro-shard-00-02.nrp9c9i.mongodb.net:27017/blogDB?ssl=true&replicaSet=atlas-r80rsz-shard-0&authSource=admin&retryWrites=true"
 
 
 
@@ -18,7 +18,7 @@ const postSchema = {
   title: String,
   content: String
 };
-
+//Daksh0000
 const Blog = mongoose.model("blog",postSchema);
 
 const app = express();
