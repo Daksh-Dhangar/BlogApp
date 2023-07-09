@@ -103,3 +103,7 @@ if (port == null || port == "") {
 app.listen(port, function() {
   console.log("Server started on port 3000");
 });
+
+//https://web-production-55a5.up.railway.app/
+
+//https://daily-journal-dd.onrender.com
